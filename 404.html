@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seite nicht gefunden — Kunstwerkstube Baden</title>
+<meta name="robots" content="noindex,nofollow">
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter+Tight:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<style>
+  .e404-wrap {
+    min-height: 72vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: clamp(3rem, 10vw, 7rem) 1.5rem;
+  }
+  .e404-number {
+    font-family: "Fraunces", serif;
+    font-size: clamp(6rem, 20vw, 12rem);
+    font-weight: 300;
+    line-height: 1;
+    color: var(--ink);
+    opacity: 0.08;
+    letter-spacing: -.04em;
+    margin-bottom: -1.5rem;
+    user-select: none;
+  }
+  .e404-stroke {
+    width: clamp(80px, 20vw, 160px);
+    height: 12px;
+    background: var(--violet);
+    opacity: 0.35;
+    border-radius: 6px;
+    margin: 0 auto 2rem;
+    transform: rotate(-1.5deg);
+  }
+  .e404-title {
+    font-family: "Fraunces", serif;
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 400;
+    color: var(--ink);
+    margin-bottom: 1rem;
+    letter-spacing: -.01em;
+  }
+  .e404-title em { color: var(--violet); font-style: italic; }
+  .e404-text {
+    font-size: 1rem;
+    color: var(--ink-soft);
+    max-width: 420px;
+    line-height: 1.65;
+    margin-bottom: 2.5rem;
+  }
+  .e404-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <img src="/logo.png" alt="Kunstwerkstube Baden" height="36">
+    </a>
+    <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
+    <div class="nav-links">
+      <a class="navlink" href="index.html"><span data-de>Start</span><span data-en>Home</span></a>
+      <a class="navlink" href="ausstellungen.html"><span data-de>Ausstellungen</span><span data-en>Exhibitions</span></a>
+      <a class="navlink" href="kuenstler.html"><span data-de>Für Künstler:innen</span><span data-en>For Artists</span></a>
+      <a class="navlink" href="medien.html"><span data-de>Medien</span><span data-en>Press</span></a>
+      <a class="navlink" href="kontakt.html"><span data-de>Kontakt</span><span data-en>Contact</span></a>
+    </div>
+    <div class="lang-toggle" role="group" aria-label="Sprache / Language">
+      <button data-lang="de" class="on" aria-pressed="true" onclick="setLang('de')">DE</button>
+      <button data-lang="en" aria-pressed="false" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+
+<div class="e404-wrap">
+  <div class="e404-number">404</div>
+  <div class="e404-stroke"></div>
+  <h1 class="e404-title">
+    <span data-de>Diese Seite ist <em>nicht</em> zu finden.</span>
+    <span data-en>This page is <em>not</em> to be found.</span>
+  </h1>
+  <p class="e404-text">
+    <span data-de>Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Vielleicht finden Sie weiter unten, was Sie suchen.</span>
+    <span data-en>The page you are looking for does not exist or has been moved. Perhaps you will find what you are looking for below.</span>
+  </p>
+  <div class="e404-links">
+    <a class="btn btn-primary" href="index.html">
+      <span data-de>Zur Startseite</span><span data-en>Go to homepage</span>
+    </a>
+    <a class="btn btn-ghost" href="ausstellungen.html">
+      <span data-de>Ausstellungen</span><span data-en>Exhibitions</span>
+    </a>
+    <a class="btn btn-ghost" href="kontakt.html">
+      <span data-de>Kontakt</span><span data-en>Contact</span>
+    </a>
+  </div>
+</div>
+
+<footer><div class="fwrap"><div class="fgrid">
+  <div><img src="/logo.png" alt="Kunstwerkstube Baden" style="height:32px;margin-bottom:10px">
+    <p data-de>Galerie &amp; Art-Café im Haus zu den Drei Eidgenossen</p>
+    <p data-en>Gallery &amp; art café in the Haus zu den Drei Eidgenossen</p></div>
+  <div><div class="lbl"><span data-de>Besuch</span><span data-en>Visit</span></div>
+    <p>Bäderstrasse 28<br>5400 Baden, Schweiz</p></div>
+  <div><div class="lbl"><span data-de>Kontakt</span><span data-en>Contact</span></div>
+    <p><a href="https://calendar.app.google/TNL2uckUNbEuzeev9" target="_blank" rel="noopener"><span data-de>Termin buchen</span><span data-en>Book an appointment</span></a><br>
+    <a href="mailto:info@kunstwerkstube.ch">info@kunstwerkstube.ch</a></p></div>
+</div>
+  <div class="fbot">
+    <a href="agb.html" style="border:none;opacity:.75"><span data-de>AGB</span><span data-en>Terms</span></a>
+    <a href="datenschutz.html" style="border:none;opacity:.75"><span data-de>Datenschutz</span><span data-en>Privacy</span></a>
+    <a href="impressum.html" style="border:none;opacity:.75">Impressum</a>
+    <span style="margin-left:auto;opacity:.5">© 2025 Kunstwerkstube Baden</span>
+  </div>
+</div></footer>
+
+<script>
+var buttons = document.querySelectorAll(".lang-toggle button");
+function setLang(l) {
+  document.documentElement.lang = l;
+  buttons.forEach(function(x) {
+    var on = x.dataset.lang === l;
+    x.classList.toggle("on", on);
+    x.setAttribute("aria-pressed", on);
+  });
+  try { localStorage.setItem("kw_lang", l); } catch(e) {}
+}
+try { var s = localStorage.getItem("kw_lang"); if (s) setLang(s); } catch(e) {}
+</script>
+</body>
+</html>

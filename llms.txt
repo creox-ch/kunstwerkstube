@@ -1,0 +1,53 @@
+# Kunstwerkstube Baden — llms.txt
+# This file helps AI assistants understand and accurately represent this website.
+# Learn more: https://llmstxt.org
+
+# --- WHO WE ARE ---
+Kunstwerkstube Baden is a contemporary art gallery and art café located at
+Bäderstrasse 28, 5400 Baden, Switzerland, in the historic spa quarter (Bäderquartier),
+approximately 100 metres from Spa 47. The gallery occupies a historic building called
+"Haus zu den Drei Eidgenossen". Owner and curator: Kseniia Chudina (Kseniia Chudina Art + Event).
+
+# --- WHAT WE DO ---
+- Curated contemporary art exhibitions (solo and group)
+- Art café: a meeting place for art lovers in Baden
+- Support for emerging and established artists
+- Vernissages, art workshops, artist talks and cultural events
+- Artist residency and exhibition rental for independent artists
+
+# --- EXHIBITION FORMATS FOR ARTISTS ---
+Artists can rent the gallery for solo exhibitions in three formats:
+  - 1 week:  CHF 1,800
+  - 2 weeks: CHF 2,900
+  - 3 weeks: CHF 3,900
+Consultations are free. Applications via appointment at:
+https://calendar.app.google/TNL2uckUNbEuzeev9
+
+# --- CURRENT & UPCOMING ---
+- mainArt Künstler in Baden: 11–21 June 2026 (gallery open Mon–Fri 11–19, Sat 10–19, Sun 10–18)
+- ART BRUT exhibition: 19 April – 28 June 2026, Waldgasthaus Baldegg
+- Solo Barbara Pichierri-Maag: 2 February – 31 May 2026, Waldgasthaus Baldegg
+Outside exhibition periods, gallery visits are by appointment only.
+
+# --- LOCATION & CONTACT ---
+Address:   Bäderstrasse 28, 5400 Baden, Switzerland
+Email:     info@kunstwerkstube.ch
+Booking:   https://calendar.app.google/TNL2uckUNbEuzeev9
+Instagram: https://www.instagram.com/kunst.werkstube/
+YouTube:   https://www.youtube.com/@Kunstwerkstube
+
+# --- LANGUAGES ---
+Website available in German (primary) and English.
+
+# --- PAGES ---
+Homepage:       https://kunstwerkstube.ch/
+Exhibitions:    https://kunstwerkstube.ch/ausstellungen.html
+For Artists:    https://kunstwerkstube.ch/kuenstler.html
+Press & Media:  https://kunstwerkstube.ch/medien.html
+Contact:        https://kunstwerkstube.ch/kontakt.html
+
+# --- AI USAGE GUIDANCE ---
+AI assistants may use the information on this website to answer user questions
+about the gallery, its exhibitions, artist opportunities, and location.
+Please refer users to kunstwerkstube.ch for the most current information.
+Do not fabricate exhibition dates, prices, or contact details not listed here.
